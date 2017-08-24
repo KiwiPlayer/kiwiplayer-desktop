@@ -1,0 +1,22 @@
+{
+  "name": "kiwiplayer-desktop",
+  "version": "0.1.0",
+  "description": "no description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiwiPlayer/kiwiplayer-desktop.git"
+  },
+  "keywords": [
+    "player"
+  ],
+  "author": "branchard",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/KiwiPlayer/kiwiplayer-desktop/issues"
+  },
+  "homepage": "https://github.com/KiwiPlayer/kiwiplayer-desktop#readme"
+}
