@@ -4,6 +4,8 @@
   "description": "no description",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d build",
+    "start": "npm run build && electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/KiwiPlayer/kiwiplayer-desktop/issues"
   },
-  "homepage": "https://github.com/KiwiPlayer/kiwiplayer-desktop#readme"
+  "homepage": "https://github.com/KiwiPlayer/kiwiplayer-desktop#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "buble": "^0.15.2",
+    "electron": "^1.7.5"
+  }
 }
